@@ -24,7 +24,6 @@ const Input = props => {
       setData(nextState);
     }
     }
-  };
 
   useEffect(() => {
     if (typeof window !== undefined) {
@@ -49,7 +48,7 @@ const Input = props => {
         }
       }
       return setData([]);
-    }})
+  }})
 
 
 
@@ -65,6 +64,6 @@ const Input = props => {
 
     </>
   )
-
+};
 
 export default Input
