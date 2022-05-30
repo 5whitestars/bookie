@@ -3,8 +3,8 @@ import { StatusBar } from 'expo-status-bar';
 import { View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import {Input} from './screens/Input'
-import {Home} from './screens/Home'
+import { Input } from './screens/Input'
+import { Home } from './screens/Home'
 
 const styles = StyleSheet.create({
   container: {
@@ -14,10 +14,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   statusBar: {
-    barStyle : 'dark-content',
-    hidden : false,
+    StatusBarStyle: 'dark-content',
+    hidden: false,
   },
-  
+
 });
 
 const Stack = createNativeStackNavigator();
