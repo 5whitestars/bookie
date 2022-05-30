@@ -1,11 +1,10 @@
-import React from 'react';
+import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { StyleSheet, Text, View } from 'react-native';
-import NotesInput from './components/NotesInput';
-import {Input, Home} from './components/screens'
+import {Input} from './screens/Input'
+import {Home} from './screens/Home'
 
 const styles = StyleSheet.create({
   container: {
